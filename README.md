@@ -29,18 +29,18 @@ time to install the tools and their dependencies from various resources, and mak
 
 ## Usage
 ```Dockerfile
-docker run -it --name <name for container>  briskinfosec/webdocker
+docker run -it --name <name for container>  briskinfosec/bwpt_docker
 ``` 
 
 ## Quick installation
 ```Dockerfile
-docker pull briskinfosec/webdocker:latest
-docker run -it --name <name for container>  briskinfosec/webdocker
+docker pull briskinfosec/bwpt_docker:latest
+docker run -it --name <name for container>  briskinfosec/bwpt_docker
 ```
 ## Building Docker image
 ```Dockerfile
 docker build -t <name for docker image> /PATH/TO/THE/Dockerfile.
-docker run -it --name <name for container>  briskinfosec/webdocker
+docker run -it --name <name for container>  briskinfosec/bwpt_docker
 ```
 
 ## Tools
