@@ -14,10 +14,10 @@
 - [Tools](#tools)
 
 ## Introduction
-<p align="justify"> Docker is a platform that meant to create, deploy, and run applications easily using containers. Containers allow a developer to consolidate an application with all of the parts it needs, such as libraries as well as other dependencies and ships it all out as one package. Briskinfosec, decided to make use of this platform by integrating the default and additional open source tools for examine the websecurity. It has quality benefits like directly heading to the VA (Vulnerability Assessment) part, skipping other stuffs without affecting other processes, as other requirements exist inside the container. This docker is in Briskinfosec repository in docker cloud, which can be pulled from anywhere. </p>
+<p align="justify"> Docker is a platform that is meant to create, deploy and run applications easily using containers. Containers allow a developer to consolidate an application with all of the parts it needs, such as libraries as well as other dependencies and ships it all out as one package. Briskinfosec, decided to make use of this platform and integrate with open source security assessment tools for use in websecurity tests. We have named it "BWPT_Docker". It offers quality benefits like direct VA (Vulnerability Assessment) part, skipping few steps without affecting other processes, as other requirements exist inside the container. This docker is in Briskinfosec repository in docker cloud, which can be pulled from anywhere. </p>
 
 ## Why BWPT_Docker?
-<p align="justify"> BWPT_Docker comprised of number of open source tools which can be used to inspect and evaluate the website and webapplication security. This Docker is intented to cut down the time to install the tools and their dependencies from various resources, and makes it available into a single docker container. This tool simplifies the user task by making the platform dependent tool to get execute in an independent platform. </p>
+<p align="justify"> BWPT_Docker comprises of a number of open source tools which can be used to inspect and evaluate websites and web applications. This Docker is intented to cut down the time to install the tools and their dependencies from various resources, thus making it available in a single docker container and simplifies the user task by eliminating platform dependencies. </p>
 
 ## What This Docker contains?
 - [Rapidscan](#rapidscan)
@@ -45,14 +45,14 @@ docker run -it --name <name for container>  briskinfosec/bwpt_docker
 ## Tools
 
 ### Rapidscan
-<p aling="justify"> The ultimate aim of rapidscan is to automate multiple scanners to discover vulnerabilities, effectively judge false-positives, collectively correlate results and saves precious time; all these under one roof. </p>
+<p aling="justify"> The ultimate aim of rapidscan is to automate multiple scanners to discover vulnerabilities, effectively judge false-positives, collectively correlate results and save precious time; all these under one roof. </p>
 
 <p align="center">
 <img width="860x50" src="https://raw.githubusercontent.com/briskinfosec/BWPT_Docker/master/images/rapid%201.png" /><br>
 <img width="860x50" src="https://raw.githubusercontent.com/briskinfosec/BWPT_Docker/master/images/rapid%202.png" /><br>
   
 ### SQLmap
-<p aling="justify"> Sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester and a broad range of switches lasting from database fingerprinting, over data fetching from the database, to accessing the underlying file system and executing commands on the operating system via out-of-band connections.</p>
+<p aling="justify"> Sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, host of niche features for the ultimate penetration tester and a broad range of switches lasting from database fingerprinting, data fetching from databases, to accessing the underlying file system and executing commands on the operating system via out-of-band connections.</p>
 <ul type="square">
   <li> Enumerate and Dumps the DataBase. </li>
 </ul>
@@ -62,7 +62,7 @@ docker run -it --name <name for container>  briskinfosec/bwpt_docker
 
 
 ### W9scan
-<p aling="justify"> W9scan is an excellent website vulnerability scanner that draws on the code of your predecessors. Built-in 1200+ plug-in can detect the website once, including but not limited to web fingerprint detection, port fingerprint detection, website structure analysis, various popular vulnerability detection, crawling and SQL injection detection, XSS detection, etc., w9scan will Automatically generate beautiful HTML format result reports. </p>
+<p aling="justify"> W9scan is an excellent website vulnerability scanner that draws on the code of your predecessors. Built-in 1200+ plug-in can detect the website vulnerabilities instantly, including but not limited to web fingerprint detection, port fingerprint detection, website structure analysis, various widely used vulnerability detection techniques, crawling and SQL injection detection, XSS detection, etc., w9scan automatically generate beautiful HTML format result reports. </p>
 
 <p align="center">
 <img width="860x50" src="https://raw.githubusercontent.com/briskinfosec/BWPT_Docker/master/images/w9%201.png" /><br>
@@ -77,7 +77,7 @@ docker run -it --name <name for container>  briskinfosec/bwpt_docker
 <img width="860x50" src="https://raw.githubusercontent.com/briskinfosec/BWPT_Docker/master/images/striker%203.png" /><br>
   
 ### OWASP-Nettacker
-<p aling="justify"> OWASP Nettacker project is created to automate information gathering, vulnerability scanning and eventually generating a report for networks, including services, bugs, vulnerabilities, misconfigurations, and other information. This software will utilize TCP SYN, ACK, ICMP and many other protocols in order to detect and bypass Firewall/IDS/IPS devices. By leveraging a unique method in OWASP Nettacker for discovering protected services and devices such as SCADA. It would make a competitive edge compared to other scanner making it one of the bests. </p>
+<p aling="justify"> OWASP Nettacker project is created to automate information gathering, vulnerability scanning and eventually generating a report for networks, including services, bugs, vulnerabilities, misconfigurations etc. This software utilizes TCP SYN, ACK, ICMP and other protocols in order to detect and bypass Firewall/IDS/IPS devices. By leveraging a unique method in OWASP Nettacker, tester can discover protected services and devices such as SCADA. It offers competitive edge compared to other scanner and making it one of the bests. </p>
 <ul type="square">
   <li> OWASP-Nettacker does an Automated Penetration Testing and Information Gathering. </li>
 </ul>
@@ -89,7 +89,7 @@ docker run -it --name <name for container>  briskinfosec/bwpt_docker
 
 
 ## How to contribute
-<p align="justify"> All contributions are welcome, from code to documentation, to design suggestions, to bug reports. Please use GitHub to its fullest. Submit your requests, contribute tutorials or other wiki content. Whatever lucrative you offer, we will use it! </p>
+<p align="justify"> All contributions are welcome, from code to documentation, to design suggestions, to bug reports. Please use GitHub to its fullest. Submit your requests, contribute tutorials or other wiki content. </p>
 
 ## Support us !
 <p align="justify">If you want to support us in any possible ways, please do it. Here is our official Email address:contact@briskinfosec.com or visit our website www.briskinfosec.com for more details. </p>
@@ -103,4 +103,4 @@ docker run -it --name <name for container>  briskinfosec/bwpt_docker
   <li> OWASP-Nettacker</li>
 
 ## Disclaimer
-<p align="justify"> <i>Note: This Docker is intended to be used for legal security purposes only, and you should only use it to protect networks/hosts that you own or have permission to test. Any other illegal use is not the responsibility of the developer(s). Be sure that you understand and comply with the Docker licenses and laws in your area. </i> </p>
+<p align="justify"> <i>Note: This Docker is intended to be used for legal security purposes only, and you should only use it to protect networks/hosts that you own or have permission to test. Any other illegal use is not the responsibility of the developer(s). Be sure that you understand and comply with the Docker licenses and laws in your country. </i> </p>
